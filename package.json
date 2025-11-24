@@ -1,0 +1,23 @@
+{
+  "name": "testing-js",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/romanbarinov84/TESTING.JS_-with-Jest-_#readme",
+  "bugs": {
+    "url": "https://github.com/romanbarinov84/TESTING.JS_-with-Jest-_/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanbarinov84/TESTING.JS_-with-Jest-_.git"
+  },
+  "license": "ISC",
+  "author": "Roman",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
