@@ -1,9 +1,9 @@
+
 const validateValue = (value) => {
-    if(value < 0 || value > 100){
+    if(value < 0 || value > 100) {
         return false;
     }
-
-    return true
+    return true;
 }
 
-module.exports = validateValue
+module.exports = validateValue;

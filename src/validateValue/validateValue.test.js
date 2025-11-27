@@ -1,25 +1,10 @@
-const validateValue = require("./validateValue");
+const validateValue = require("./validateValue")
 
 describe("validateValue", () => {
-
-  test("валидное значение - 0", () => {
-    expect(validateValue(0)).toBe(true);
-  });
-
-  test("валидное значение - 50", () => {
-    expect(validateValue(50)).toBe(true);
-  });
-
-  test("валидное значение - 100", () => {
-    expect(validateValue(100)).toBe(true);
-  });
-
-  test("невалидное значение - -1", () => {
-    expect(validateValue(-1)).toBe(false);
-  });
-
-  test("невалидное значение - -101", () => {
-    expect(validateValue(-101)).toBe(false);
-  });
-
+    test.each([10,30,50,80])("валидное число %i", (num) => {
+        expect(validateValue(num)).toBe(true)
+    })
+    test.each([-10,105,130,-50,-1,101])("невалидное число %i", (num) => {
+        expect(validateValue(num)).toBe(false);
+    });
 });
