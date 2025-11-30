@@ -1,22 +1,62 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`TEST-APP click-event 1`] = `
+<div>
+  <div>
+    <div
+      class="container2"
+    >
+      <h3
+        data-testid="value-input"
+      />
+      <h1>
+        Hello World
+      </h1>
+      <button
+        data-testid="toggle-btn"
+      >
+        Click Me
+      </button>
+      <div>
+        <label>
+          Enter text
+          <input
+            placeholder="Enter the text"
+            type="text"
+          />
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`TEST-APP render data 1`] = `
 <div>
   <div>
-    <h1>
-      Hello World
-    </h1>
-    <button>
-      Click Me
-    </button>
-    <div>
-      <label>
-        Enter text
-        <input
-          placeholder="Enter the text"
-          type="text"
-        />
-      </label>
+    <div
+      class="container2"
+    >
+      <h3
+        data-testid="value-input"
+      />
+      <h1>
+        Hello World
+      </h1>
+      <button
+        data-testid="toggle-btn"
+      >
+        Click Me
+      </button>
+      <div>
+        <label>
+          Enter text
+          <input
+            placeholder="Enter the text"
+            type="text"
+          />
+        </label>
+      </div>
     </div>
   </div>
 </div>
@@ -25,20 +65,29 @@ exports[`TEST-APP render data 1`] = `
 exports[`TEST-APP renders learn react link 1`] = `
 <div>
   <div>
-    <h1>
-      Hello World
-    </h1>
-    <button>
-      Click Me
-    </button>
-    <div>
-      <label>
-        Enter text
-        <input
-          placeholder="Enter the text"
-          type="text"
-        />
-      </label>
+    <div
+      class="container2"
+    >
+      <h3
+        data-testid="value-input"
+      />
+      <h1>
+        Hello World
+      </h1>
+      <button
+        data-testid="toggle-btn"
+      >
+        Click Me
+      </button>
+      <div>
+        <label>
+          Enter text
+          <input
+            placeholder="Enter the text"
+            type="text"
+          />
+        </label>
+      </div>
     </div>
   </div>
 </div>
