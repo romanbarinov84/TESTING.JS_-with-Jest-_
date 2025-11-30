@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
+import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
+  const [data , setData] = useState(null);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setData({})
+    }, 2000)
+  },[])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {data && <div>data</div>}
+      <h1>Hello World</h1>
+      <button>Click Me</button>
+      <div>
+        <label>
+          Enter text
+          <input placeholder="Enter the text" type="text" />
+        </label>
+      </div>
     </div>
   );
 }
